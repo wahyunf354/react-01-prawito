@@ -2,6 +2,10 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+const Hello = () => {
+  return <p>Hello Word</p>
+}
+
 function App() {
   return (
     <div className="App">
@@ -10,6 +14,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <Hello />
         <a
           className="App-link"
           href="https://reactjs.org"
